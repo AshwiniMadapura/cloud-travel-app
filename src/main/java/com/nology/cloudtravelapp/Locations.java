@@ -13,8 +13,8 @@ public class Locations {
     private int locationId;
     private String locationName;
     private String description;
-    private ArrayList<String> attractions;
-
+//    private ArrayList<String> attractions;
+    private String attractions;
     public Locations(){
 
     }
@@ -43,11 +43,19 @@ public class Locations {
         this.description = description;
     }
 
-    public ArrayList<String> getAttractions() {
+//    public ArrayList<String> getAttractions() {
+//        return attractions;
+//    }
+//
+//    public void setAttractions(ArrayList<String> attractions) {
+//        this.attractions = attractions;
+//    }
+
+    public String getAttractions() {
         return attractions;
     }
 
-    public void setAttractions(ArrayList<String> attractions) {
+    public void setAttractions(String attractions) {
         this.attractions = attractions;
     }
 }

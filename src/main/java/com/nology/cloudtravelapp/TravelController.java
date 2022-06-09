@@ -7,7 +7,7 @@ import javax.transaction.Transactional;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = {"https://cloud-travel-app-mgpd7hiizq-nw.a.run.app/"})
+@CrossOrigin(origins = {"http://localhost:3000"})
 public class TravelController {
 
     @Autowired
